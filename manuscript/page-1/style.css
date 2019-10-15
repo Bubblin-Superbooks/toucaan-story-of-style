@@ -4,11 +4,12 @@ body {
   border: 2vw solid #32325d;
   -webkit-border-radius: 3px 12px 12px 3px;
   border-radius: 3px 12px 12px 3px;
-  -webkit-box-shadow: -5px 5px 0 #87bbfd inset;
-  box-shadow: -5px 5px 0 #87bbfd inset;
+  -webkit-box-shadow: -5px 5px 0 #964fbf inset;
+  box-shadow: -5px 5px 0 #964fbf inset;
   position: relative;
   background-color: #561F63; 
-  background-image: radial-gradient(#F7BC40, #561F63);   
+  background-image: radial-gradient(#9800e2, #286767);
+  color: white;
 }
 
 body:before {
@@ -22,14 +23,15 @@ body:before {
   box-shadow: -5px 5px 0 #6772e5 inset;
   content: " ";
   display: block;
+  background-color: #69fffa;
 }
 
 .title {
   background-color: #32325d;  
-  background-image: -webkit-radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,.26)), -webkit-linear-gradient(105deg, #555abf, #32325d 90%);  
+  background-image: radial-gradient(closest-corner, rgba(16,47,70,0) 60%, rgba(16,47,70,.26)), -webkit-linear-gradient(105deg, #555abf, #32325d 90%);  
   width: 100%;
-  border-top: 2vw solid #6772e5;
-  border-bottom: 2vw solid #6772e5; 
+  border-top: 2vw solid #32325d;
+  border-bottom: 2vw solid #32325d; 
   line-height: 1.25;
   height: 40vh;
   top: 43vh;
@@ -42,7 +44,7 @@ body:before {
   left: 25px;
   height: 100%;
   width: 10px;
-  background: #aaa;
+  background: #921391;
   border-left: 5px solid #87bbfd;
   -webkit-box-shadow: -5px 5px 0 #6772e5 inset;
   box-shadow: -5px 5px 0 #6772e5 inset;
@@ -50,7 +52,7 @@ body:before {
   display: block;
 }
 
-h1 {
+h1, h3 {
   color: #fff;
 }
 

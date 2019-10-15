@@ -1,11 +1,22 @@
 {
-  "name": "toucaan-story-of-style",
+  "name": "The Toucaan Framework",
   "type": "text",
-  "has_page_numbers": false,
+  "has_page_numbers": true,
+  "cover": {
+    "punchline": "A Story of Style",
+    "toc": "",
+    "author_detail": "",
+    "colophon": "",
+    "synopsis": ""
+  },
+  "status": "published",
+  "asset_url": "",
+  "book_url": "https://bubblin.io/book/the-toucaan-framework-by-marvin-danig",
   "mode": {
     "HTML": "html",
     "CSS": "css",
     "JS": "js",
     "HEAD": "html"
-  }
+  },
+  "book_id": 1189
 }
