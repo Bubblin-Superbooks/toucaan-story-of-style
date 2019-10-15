@@ -6,7 +6,7 @@ body {
   color: #000;
   height: 100vh;
   width: 100vw;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-synthesis: none;
   font-stretch: ultra-condensed;
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Luckiest Guy", cursive;
   margin: 0 0;
   padding: 0;
   color: #000;
