@@ -45,7 +45,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<br>\n<div class=\"center\">\n  <a href=\"http://toucaan.com\"><img src=\"https://raw.githubusercontent.com/bookiza/toucaan/master/toucaan.svg?sanitize=true\" alt=\"Toucaan-A Tropical CSS Framework\" width=\"400\" style=\"max-width:100%;\"></a>\n  <h2>The Tropical CSS Framework.</h2>\n</div>\n<br>"
+    "innerHtml": "<br>\n<div class=\"center\">\n  <a href=\"http://toucaan.com\"><img class="overlay" src=\"https://raw.githubusercontent.com/bookiza/toucaan/master/toucaan.svg?sanitize=true\" alt=\"Toucaan-A Tropical CSS Framework\" width=\"400\" style=\"max-width:100%;\"></a>\n  <h2>The Tropical CSS Framework.</h2>\n</div>\n<br>"
   },
   {
     "tag": "p",
@@ -73,7 +73,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<br>\n<div class=\"center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/charlesbabbage.jpg\" width=\"100%\">\n</div>\n<br/>"
+    "innerHtml": "<br>\n<div class=\"center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/charlesbabbage.jpg\" width=\"100%\">\n</div>\n<br/>"
   },
   {
     "tag": "p",
@@ -101,11 +101,11 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<div class=\"center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/major-devices.png\" alt=\"Major web devices.\" width=\"100%\" style=\"max-width:100%;\">\n</div>"
+    "innerHtml": "<div class=\"center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/major-devices.png\" alt=\"Major web devices.\" width=\"100%\" style=\"max-width:100%;\">\n</div>"
   },
   {
     "tag": "p",
-    "innerHtml": "<div class=\"center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/web-devices.png\" alt=\"Major web devices.\" width=\"100%\" style=\"max-width:100%;\">\n</div>"
+    "innerHtml": "<div class=\"center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/web-devices.png\" alt=\"Major web devices.\" width=\"100%\" style=\"max-width:100%;\">\n</div>"
   },
   {
     "tag": "p",
@@ -117,7 +117,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<br>\n<div class=\"center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/tesla-falcon.png\" alt=\"Major web devices.\" width=\"50%\" style=\"max-width:100%;\">\n  <div class=\"super-small\">Credit: Stuart O'Neil, The Noun Project.</div>\n</div>\n<br>"
+    "innerHtml": "<br>\n<div class=\"center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/tesla-falcon.png\" alt=\"Major web devices.\" width=\"50%\" style=\"max-width:100%;\">\n  <div class=\"super-small\">Credit: Stuart O'Neil, The Noun Project.</div>\n</div>\n<br>"
   },
   {
     "tag": "p",
@@ -125,7 +125,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<br>\n<div class=\"center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/tesla-web-browser.png\" alt=\"Major web devices.\" width=\"100%\" style=\"max-width:100%;\">\n  <div class=\"super-small\">Web is way bigger than it ever was.</div> \n</div>"
+    "innerHtml": "<br>\n<div class=\"center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/tesla-web-browser.png\" alt=\"Major web devices.\" width=\"100%\" style=\"max-width:100%;\">\n  <div class=\"super-small\">Web is way bigger than it ever was.</div> \n</div>"
   },
   {
     "tag": "p",
@@ -245,7 +245,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<div class=\"center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/viewports.png\" alt=\"Major web devices.\" width=\"66%\" style=\"max-width:100%;\">\n  <div class=\"super-small\">Viewport rectangles of the browser window on resize.</div>\n</div>"
+    "innerHtml": "<div class=\"center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/viewports.png\" alt=\"Major web devices.\" width=\"66%\" style=\"max-width:100%;\">\n  <div class=\"super-small\">Viewport rectangles of the browser window on resize.</div>\n</div>"
   },
   {
     "tag": "p",
@@ -257,7 +257,7 @@
   },
   {
     "tag": "p",
-    "innerHtml": "<br>\n<div class=\"two-third center\">\n  <img src=\"https://raw.githubusercontent.com/marvindanig/assets/master/desktop-portrait-landscape.png\" width=\"100%\" />\n</div>\n<br>"
+    "innerHtml": "<br>\n<div class=\"two-third center\">\n  <img class="overlay" src=\"https://raw.githubusercontent.com/marvindanig/assets/master/desktop-portrait-landscape.png\" width=\"100%\" />\n</div>\n<br>"
   },
   {
     "tag": "p",
