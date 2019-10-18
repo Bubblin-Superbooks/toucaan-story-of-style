@@ -1,6 +1,11 @@
-<div class="leaf flex">
-  <div class="inner justify ">
-    <h1> Hello world! </h1>
-    <p> Lorem ipsum dolor sit amet, <a href="https://wikipedia.com">consectetur</a> adipiscing elite... </p>
-  </div>
-</div>
+<div class="leaf flex"><div class="inner justify"><h6 class="no-indent  ">Eh?</h6><p>Breakpoints are hardcoded on Tailwind CSS like this [<a rel="nofollow noopener noreferrer" href="https://tailwindcss.com/docs/theme#screens">1</a>, <a rel="nofollow noopener noreferrer" href="https://tailwindcss.com/docs/breakpoints/">2</a>], for example.</p><pre>// tailwind.config.js
+module.exports = {
+  theme: {
+    screens: {
+      'sm': '640px', // Translates to hardcoded break-points in media queries.
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    }
+  }
+}</pre><p>On Bulma, the break points [<a rel="nofollow noopener noreferrer" href="https://github.com/jgthms/bulma/blob/49708a36a1f88870ec19db74888acc526a4188f3/css/bulma.css#L497">1</a>] are used to silo blocks of code similarly like so:</p><pre class="  ">/* Bulma CSS like any other framework uses</pre></div> </div>

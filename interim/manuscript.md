@@ -33,7 +33,7 @@ Through this post we will revisit the basics of a web page, i.e. HTML & CSS, and
 
 Qualitatively speaking, the intent of Toucaan is to weed out all the unwanted CSS that your webapp doesn’t need. It is a deep dive into core CSS properties and web standards in a bid to discover new and useful patterns according to the new landscape of the web. We might identify a few anti-patterns in the process that our industry may currently be plagued with too, but we can address those on-the-fly as we go about building Toucaan ground up.
 
-#### Why call it Toucaan?
+###### Why call it Toucaan?
 
 Well, quite simply because I owned the pretty domain name. 
 
@@ -106,7 +106,7 @@ Notice that we are not even into talking about web browsers yet and yet the rang
 Voila, we have our first **anti-pattern** to go after now! ( ͡° ͜ʖ ͡°)
 
 
-## What's with the hardcoded break points, eh?
+###### What's with the hardcoded break points, eh?
 
 Breakpoints are hardcoded on Tailwind CSS like this [[1](https://tailwindcss.com/docs/theme#screens), [2](https://tailwindcss.com/docs/breakpoints/)], for example.  
 
@@ -170,7 +170,7 @@ Then for each silo elsewhere on the CSS…
 
 At what point will the hardcoded breakpoints become all too many? 
 
-#### Mode driven instead of data driven:
+###### Mode driven instead of data driven:
 
 While it would be a nice exercise to plot a graph of all the screen sizes (pixel ratio data) that are available on market, but going down this path to figure out a new set of breaking point values to separate mobile from tablets from watches from desktops from cars to any other new kind of surface that is about to come on the web is anything but scalable. Or even practical. 
 
@@ -182,8 +182,9 @@ Turns out, yes there is!
 
 We can build any kind of responsive application using a really simple and smart set of rules that we will talk about in the next section.
 
+---
 
-# The 'Two States' of Web Design.
+### The 'Two States' of Web Design.
 
 Let's create a [blank page](https://raw.githubusercontent.com/bookiza/toucaan/master/examples/example0.html) on your machine and load it on a desktop browser first. 
 
@@ -231,16 +232,7 @@ This also means that there are only **two states of design** on web no matter wh
 
 ---
 
-And oh, oh, ICYMI, there is a lot more `math` coming into CSS in the near future so we'll have trigonometry at our disposal eventually!
-
-<div class="two-third center">
-	<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The CSS Working Group agreed this morning on adding many math functions. We now have:<br><br>• calc()<br>• min()<br>• max()<br>• clamp()<br>• sin()<br>• cos()<br>• tan()<br>• acos()<br>• asin()<br>• atan()<br>• atan2()<br>• hypot()<br>• sqrt()<br>• pow()<br><br>The face of CSS is rapidly changing.</p>&mdash; Benjamin De Cock (@bdc) <a href="https://twitter.com/bdc/status/1100921258839953408?ref_src=twsrc%5Etfw">February 28, 2019</a></blockquote>
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
----
-
-## Kickstarting the code
+#### Kickstarting the code
 
 Now that we have covered some ground for Toucaan to work on let's start wiring up all the ideas discussed above into code. Since a webpage can be rendered in only one of the two states of the viewport, either portrait or landscape, we'll begin with the following ruleset for our new framework:
 

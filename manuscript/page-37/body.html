@@ -1,6 +1,8 @@
-<div class="leaf flex">
-  <div class="inner justify ">
-    <h1> Hello world! </h1>
-    <p> Lorem ipsum dolor sit amet, <a href="https://wikipedia.com">consectetur</a> adipiscing elite... </p>
-  </div>
-</div>
+<div class="leaf flex"><div class="inner justify"><pre class="no-indent  ">screen and (orientation: portrait);   
+}
+
+@media only screen and (orientation: landscape) {    
+  :root { /* Landscape variables go here. */ }
+
+  @import url('toucaan/landscape/landscape.css') only screen and (orientation: landscape); 
+}</pre><p class=" stretch-last-line ">The twin code blocks above may not seem like much at this stage but this dual state switch is exactly what we are going to use to go about scaling our layout across all the web devices on the planet. Notice that we are using a standard asynchronous @import call to request only so much CSS that a given "viewport state" will require. On the desktop, this state of a given render will not change</p></div> </div>
