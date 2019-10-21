@@ -11,6 +11,7 @@ body {
 }
 
 h1 {
+  font-family: "Luckiest Guy", cursive;  
   margin: 0;
   font-size: 400%; 
   padding: 0;
@@ -29,6 +30,10 @@ h1 span:first-child {
 h1 span:last-child {
   -webkit-animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
           animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+
+h3{
+  font-family: "Luckiest Guy", cursive;
 }
 
 @-webkit-keyframes bop {

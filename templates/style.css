@@ -6,7 +6,7 @@ body {
   color: #000;
   height: 100vh;
   width: 100vw;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Old Standard TT', serif;
   font-style: normal;
   font-synthesis: none;
   font-stretch: ultra-condensed;
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Luckiest Guy", cursive;
+  font-family: 'Berkshire Swash', cursive;  
   margin: 0 0;
   padding: 0;
   color: #000;
@@ -110,7 +110,7 @@ p.start-chapter:first-letter {
   float: left;
   font-size: calc(3 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
-  font-family: 'Fascinate', cursive;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 

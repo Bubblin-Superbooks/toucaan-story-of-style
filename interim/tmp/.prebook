@@ -1,7 +1,7 @@
 [
   {
     "tag": "h4",
-    "innerHtml": "Tldr Zero"
+    "innerHtml": "Tldr;"
   },
   {
     "tag": "p",
@@ -26,10 +26,6 @@
   {
     "tag": "h3",
     "innerHtml": "Introduction"
-  },
-  {
-    "tag": "p",
-    "innerHtml": "2020 is almost here."
   },
   {
     "tag": "p",
