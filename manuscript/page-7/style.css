@@ -1,0 +1,29 @@
+.awesome {
+	width: 50vw;
+	height: 50vw;
+	border: solid 1vw black;
+	font-family: arial, sans-serif;	
+	font-weight:  600;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.awesome > p {
+	text-indent: 1px;
+}
+
+p:nth-child(1) {
+	font-size: calc(50vw/4);
+	line-height: calc(1.25 * 50vw/4);	
+}
+
+p:nth-child(2) {
+	font-size: calc(50vw/4);
+	line-height: calc(1.25 * 50vw/4);
+
+}
+
+p:nth-child(3) {
+	font-size: calc(50vw/5.5);
+	line-height: calc(1.25 * 50vw/4);	
+}
